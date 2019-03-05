@@ -1,0 +1,41 @@
+home.cern 
+Global rank 64,254: 
+Rank in Switzerland: 3,122
+Daily Pageviews per Visitor: 1.70 
+Daily Time on Site 2:24 
+3 most visiting country: US, India, Switzerland 
+
+sfu-kras.ru
+Global rank 23,101
+Rank in Russia: 1,551   
+Daily Pageviews per Visitor: 4.03  
+Daily Time on Site 7:02 
+3 most visiting country: Russia, China, Kazakhstan
+
+bitco.co.za
+Global rank 23,101
+Rank in RPA: 7,404 
+Daily Pageviews per Visitor: 2.30 
+Daily Time on Site 2:42 
+3 most visiting country: RPA 96%
+
+sydney.edu.au
+Global rank  7,020
+Rank in Australia: 104  
+Daily Pageviews per Visitor: 5.95 
+Daily Time on Site 5.95
+3 most visiting country: Australia, China, United States 
+
+jacksonhole.com
+Global rank 81,820 
+Rank in US:  12,818   
+Daily Pageviews per Visitor: 2.40
+Daily Time on Site 3:12 
+3 most visiting country: US, Canada 
+
+uchile.cl
+Global rank 15,439
+Rank in Switzerland: 176 
+Daily Pageviews per Visitor: 2.05 
+Daily Time on Site 3:11
+3 most visiting country: Chile, Mexico, Columbia
