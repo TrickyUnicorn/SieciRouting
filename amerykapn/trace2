@@ -1,0 +1,21 @@
+
+Tracing route to 199.83.134.40.ip.incapdns.net [199.83.134.40]
+over a maximum of 30 hops:
+
+  1    17 ms    14 ms     8 ms  10.129.15.254 
+  2    51 ms   246 ms    90 ms  ucirtr.agh.edu.pl [149.156.193.129] 
+  3    21 ms    39 ms     6 ms  149.156.6.222 
+  4    11 ms     4 ms     3 ms  149.156.0.217 
+  5    64 ms    10 ms   104 ms  z-krakowa.poznan-gw3.10Gb.rtr.pionier.gov.pl [212.191.224.69] 
+  6    28 ms    27 ms    18 ms  ae100.edge3.Berlin1.Level3.net [212.162.10.81] 
+  7     *        *        *     Request timed out.
+  8    38 ms    52 ms    39 ms  ae-37.r02.frnkge04.de.bb.gin.ntt.net [129.250.9.5] 
+  9   128 ms    42 ms   429 ms  ae-27.r24.frnkge08.de.bb.gin.ntt.net [129.250.5.52] 
+ 10  2395 ms   108 ms   412 ms  ae-4.r25.nycmny01.us.bb.gin.ntt.net [129.250.2.4] 
+ 11   816 ms   344 ms   349 ms  ae-1.r20.chcgil09.us.bb.gin.ntt.net [129.250.2.166] 
+ 12  1002 ms   612 ms   235 ms  ae-6.r07.chcgil09.us.bb.gin.ntt.net [129.250.6.61] 
+ 13   158 ms  1044 ms   130 ms  ae-30.a00.chcgil09.us.bb.gin.ntt.net [129.250.3.145] 
+ 14     *     2005 ms   931 ms  192.80.16.186 
+ 15   219 ms   159 ms   164 ms  199.83.134.40.ip.incapdns.net [199.83.134.40] 
+
+Trace complete.

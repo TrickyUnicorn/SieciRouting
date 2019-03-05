@@ -1,0 +1,15 @@
+PING sfu-kras.ru (193.218.139.99) 56(84) bytes of data.
+64 bytes from nginx1.sfu-kras.ru (193.218.139.99): icmp_seq=1 ttl=239 time=398 ms
+64 bytes from nginx1.sfu-kras.ru (193.218.139.99): icmp_seq=2 ttl=239 time=238 ms
+64 bytes from nginx1.sfu-kras.ru (193.218.139.99): icmp_seq=3 ttl=239 time=282 ms
+64 bytes from nginx1.sfu-kras.ru (193.218.139.99): icmp_seq=4 ttl=239 time=531 ms
+64 bytes from nginx1.sfu-kras.ru (193.218.139.99): icmp_seq=5 ttl=239 time=163 ms
+64 bytes from nginx1.sfu-kras.ru (193.218.139.99): icmp_seq=6 ttl=239 time=185 ms
+64 bytes from nginx1.sfu-kras.ru (193.218.139.99): icmp_seq=7 ttl=239 time=145 ms
+64 bytes from nginx1.sfu-kras.ru (193.218.139.99): icmp_seq=8 ttl=239 time=168 ms
+64 bytes from nginx1.sfu-kras.ru (193.218.139.99): icmp_seq=9 ttl=239 time=639 ms
+64 bytes from nginx1.sfu-kras.ru (193.218.139.99): icmp_seq=10 ttl=239 time=150 ms
+
+--- sfu-kras.ru ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9002ms
+rtt min/avg/max/mdev = 145.671/290.433/639.077/166.418 ms

@@ -1,0 +1,83 @@
+Odbiorca
+
+Delivered-To: karol.morawski4@gmail.com
+Received: by 2002:a2e:2ac4:0:0:0:0:0 with SMTP id q187csp4743762ljq;
+        Tue, 5 Mar 2019 03:22:32 -0800 (PST)
+X-Received: by 2002:aca:dbc4:: with SMTP id s187mr14682324oig.124.1551784952674;
+        Tue, 05 Mar 2019 03:22:32 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1551784952; cv=none;
+        d=google.com; s=arc-20160816;
+        b=Bva9//59bM5AKEw+HYaS6rimMuoxMfKXczVUK3ZTVW8mxl7EwotE9oP1n6Ey5MQe6n
+         UdhBetKw/kxgsJf9c9vSf6+XOBPr23YHMYFAT8PJMVvqpkYn9aHLyReXZQsa/xOUpXuu
+         I8GQovPA4lVNEFWXt1CNdOF50pI0l0oqwhlgPlPURaeVAiYdGrtx1ylOZzZtMhloBUSp
+         iLb8gvx92xM+DNhFdvKuoeVHg86oKtqavYLkksyCGU/XY80u2PC8giyv6GuOp6/AkA7y
+         5PVhhcQ+MNWKM3MRIW0RMBBXko3nR+jWQkXgi9TnUkdim0bDVcTOUs3uKjZIw2pBvnNr
+         X3VA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=to:subject:message-id:date:from:mime-version:dkim-signature;
+        bh=apWzfw1lRIrBOPFAVzQi4rAc17Q0Eip744FphIYcPdY=;
+        b=uqf+yEpMB5TVhPGxJKkKgEy5YtI6hJUEeflY21Sa33j+eNuh6mzd1DQ9E1NBNB5lix
+         ryX516qSVXvuLpRqnjJltaXlsFK7BHIcRDp0gtH7aLVGuEuiaY1SD0ZXwmgLcv8dB8Pp
+         hq9dOm7PTSzQmtTKZHIdKjs386secZtqHfRcsEpaW/gvt0X3wjctrF5VXjLnxaR4zJ5R
+         hPd+w9+Atdmcb5ikvmoBfYrV1B5CNqLctlsRal9zjWqP5hImcC5Y/6CG/Fmns0Io1aaq
+         z2nUa1tHPnbhJl9WbHuFcozTDiR+fX8cHb7YaJPoJkafPoh8sdyNWkdj3pmqcfsLN2hJ
+         JmTg==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20161025 header.b=hQ9cGdRC;
+       spf=pass (google.com: domain of samuel.ozimina@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=samuel.ozimina@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+Return-Path: <samuel.ozimina@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id i64sor5068429oih.107.2019.03.05.03.22.32
+        for <karol.morawski4@gmail.com>
+        (Google Transport Security);
+        Tue, 05 Mar 2019 03:22:32 -0800 (PST)
+Received-SPF: pass (google.com: domain of samuel.ozimina@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20161025 header.b=hQ9cGdRC;
+       spf=pass (google.com: domain of samuel.ozimina@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=samuel.ozimina@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=apWzfw1lRIrBOPFAVzQi4rAc17Q0Eip744FphIYcPdY=;
+        b=hQ9cGdRCds4J90evVtwV7mggQSC82z2Di15+vcbR3ki5BXhilONd0YZ5koV4cnsD39
+         l1WHSyxRZjRm7Aq7E8soKzb3epD4qE4iqFUaTf06XlF4Hqlx9VeSnpKVVjWl4LlnQ/5G
+         y2+CzkCemhR59LwaK0h8AI5z6J3ksoR0XBpI1jwyk/Lr3tUvWQfcav8/zYJwh1xuT54W
+         4hTNIrw2ivi1MSJQ8yfbXHQ+/t7QDsvEzZ3P+Ld/0mFjsODToGD/RwBWAF2y9GFlSbMf
+         GfScAsmw/xr5HVPEnE7Lb0I4SvOAfSonw/hEKoeYjgB/QN8cdzVuh4lZl450i0vW+c5k
+         VITA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=apWzfw1lRIrBOPFAVzQi4rAc17Q0Eip744FphIYcPdY=;
+        b=F/O2lRlxqkBStC1KAwSOjxRjorzRCM007yOnKQRVMIlGt78/MhP49O12HrnUSNmot2
+         PZGS5a8BUSDdwIU1zO+art4xTcn9VArsQgDfgjazmW9Ol30HH4DKPMwC652xU1CBNYPS
+         Ga+7metRE2NQvtqAksP16K3lVJgkkRcQSYVVKyVKdplYjbBvP4WwFgLZYDvPi1gO8Gqq
+         NU760T9mMqE4FU/uzMnKF/nmEeDmie3qXgrHzPOopekGMmLLkb93KCsGUCYlvobRIPOb
+         7ivtdaPWbcQPVVMZPZRN2B+Db5oEIuiAaZcO5aYn/xzYvq/U/pUSPtZsTQdf+QEGeOYL
+         xCWQ==
+X-Gm-Message-State: AHQUAuZkYSxeMFLw6rmYy+lADaupgWOcxZybwrhYEfugVlKSpZQYrIAY Bo7R26wXrCD/Sfi5sOuw1V1U+W2kXCijyAmOxOkfVA==
+X-Google-Smtp-Source: APXvYqwrBG8EvAm2Kvi1l0TZ4QF0Zd2AkgijLyGaT7KHe7JPwcXiLIZyBWiIc5UvEoC7KfJoWAzlsxKxX1xBIWDRFyw=
+X-Received: by 2002:aca:3c3:: with SMTP id 186mr14091657oid.99.1551784952134; Tue, 05 Mar 2019 03:22:32 -0800 (PST)
+MIME-Version: 1.0
+From: Samuel Ozimina <samuel.ozimina@gmail.com>
+Date: Tue, 5 Mar 2019 12:21:21 +0100
+Message-ID: <CAE+rTspSvP41ADO+OGEwsZrn8SEHEKsV9LZenuO6Na3Uj4jwEw@mail.gmail.com>
+Subject: A
+To: karol.morawski4@gmail.com
+Content-Type: multipart/alternative; boundary="000000000000d7044b058357169d"
+
+--000000000000d7044b058357169d
+Content-Type: text/plain; charset="UTF-8"
+
+A
+
+--000000000000d7044b058357169d
+Content-Type: text/html; charset="UTF-8"
+
+<div dir="auto">A</div>
+
+--000000000000d7044b058357169d--
+
+

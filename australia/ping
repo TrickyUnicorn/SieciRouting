@@ -1,0 +1,15 @@
+PING sydney.edu.au (129.78.5.8) 56(84) bytes of data.
+64 bytes from shared-addr.ucc.usyd.edu.au (129.78.5.8): icmp_seq=1 ttl=229 time=406 ms
+64 bytes from shared-addr.ucc.usyd.edu.au (129.78.5.8): icmp_seq=2 ttl=229 time=447 ms
+64 bytes from shared-addr.ucc.usyd.edu.au (129.78.5.8): icmp_seq=3 ttl=229 time=385 ms
+64 bytes from shared-addr.ucc.usyd.edu.au (129.78.5.8): icmp_seq=4 ttl=229 time=432 ms
+64 bytes from shared-addr.ucc.usyd.edu.au (129.78.5.8): icmp_seq=5 ttl=229 time=484 ms
+64 bytes from shared-addr.ucc.usyd.edu.au (129.78.5.8): icmp_seq=6 ttl=229 time=463 ms
+64 bytes from shared-addr.ucc.usyd.edu.au (129.78.5.8): icmp_seq=7 ttl=229 time=1082 ms
+64 bytes from shared-addr.ucc.usyd.edu.au (129.78.5.8): icmp_seq=8 ttl=229 time=479 ms
+64 bytes from shared-addr.ucc.usyd.edu.au (129.78.5.8): icmp_seq=9 ttl=229 time=1199 ms
+64 bytes from shared-addr.ucc.usyd.edu.au (129.78.5.8): icmp_seq=10 ttl=229 time=529 ms
+
+--- sydney.edu.au ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9286ms
+rtt min/avg/max/mdev = 385.814/591.003/1199.707/278.949 ms

@@ -1,0 +1,15 @@
+PING home.cern(drupal8lb01.cern.ch (2001:1458:201:b0::100:1b)) 56 data bytes
+64 bytes from drupal8lb01.cern.ch (2001:1458:201:b0::100:1b): icmp_seq=1 ttl=48 time=43.1 ms
+64 bytes from drupal8lb01.cern.ch (2001:1458:201:b0::100:1b): icmp_seq=2 ttl=48 time=237 ms
+64 bytes from drupal8lb01.cern.ch (2001:1458:201:b0::100:1b): icmp_seq=3 ttl=48 time=133 ms
+64 bytes from drupal8lb01.cern.ch (2001:1458:201:b0::100:1b): icmp_seq=4 ttl=48 time=59.2 ms
+64 bytes from drupal8lb01.cern.ch (2001:1458:201:b0::100:1b): icmp_seq=5 ttl=48 time=62.3 ms
+64 bytes from drupal8lb01.cern.ch (2001:1458:201:b0::100:1b): icmp_seq=6 ttl=48 time=99.0 ms
+64 bytes from drupal8lb01.cern.ch (2001:1458:201:b0::100:1b): icmp_seq=7 ttl=48 time=80.8 ms
+64 bytes from drupal8lb01.cern.ch (2001:1458:201:b0::100:1b): icmp_seq=8 ttl=48 time=78.4 ms
+64 bytes from drupal8lb01.cern.ch (2001:1458:201:b0::100:1b): icmp_seq=9 ttl=48 time=66.3 ms
+64 bytes from drupal8lb01.cern.ch (2001:1458:201:b0::100:1b): icmp_seq=10 ttl=48 time=54.0 ms
+
+--- home.cern ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9010ms
+rtt min/avg/max/mdev = 43.173/91.490/237.608/54.529 ms
