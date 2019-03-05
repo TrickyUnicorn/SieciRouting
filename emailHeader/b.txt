@@ -79,5 +79,27 @@ Content-Type: text/html; charset="UTF-8"
 <div dir="auto">A</div>
 
 --000000000000d7044b058357169d--
+ 
+ 
+ 
+ nadawca:
+ MIME-Version: 1.0
+Date: Tue, 5 Mar 2019 12:21:21 +0100
+Message-ID: <CAE+rTspSvP41ADO+OGEwsZrn8SEHEKsV9LZenuO6Na3Uj4jwEw@mail.gmail.com>
+Subject: A
+From: Samuel Ozimina <samuel.ozimina@gmail.com>
+To: karol.morawski4@gmail.com
+Content-Type: multipart/alternative; boundary="00000000000036a30e05835716d4"
 
+--00000000000036a30e05835716d4
+Content-Type: text/plain; charset="UTF-8"
+
+A
+
+--00000000000036a30e05835716d4
+Content-Type: text/html; charset="UTF-8"
+
+<div dir="auto">A</div>
+
+--00000000000036a30e05835716d4--
 
