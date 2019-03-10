@@ -1,0 +1,57 @@
+Delivered-To: samuel.ozimina@gmail.com
+Received: by 2002:ac9:646:0:0:0:0:0 with SMTP id n64csp1030100ocn;
+        Thu, 28 Feb 2019 12:30:52 -0800 (PST)
+X-Google-Smtp-Source: APXvYqykHM4DOdGsJqmBKa8y618EZt0dqzbPI1+4iVHzk/NJcFZzY3bM3TUlYAMAjrGqLaOTcAVL
+X-Received: by 2002:a63:1a25:: with SMTP id a37mr1044125pga.428.1551385852087;
+        Thu, 28 Feb 2019 12:30:52 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1551385852; cv=none;
+        d=google.com; s=arc-20160816;
+        b=HlHYKFyFD7mhoXtbyLGUcXGERwlCHxP17VGA8pIwHPj3zdlSGtK+/9qPWPWbwstFNI
+         iS9hh5eQWBCdcShalUoZuyeNZnfxNW5SVuSn9a080E5oDdgxgJZyMD/2ZLJjkzODtago
+         2N+RWMB8laArby7Fal0pU3tgkRKRV+T8qcLQ2bESW6Vqwi5iZxCzGzwU7aVMZumCOBVZ
+         DF2EfUmG664cnu/YAWvOPZHlXUFTVl9JnkvpG3aXEeFfh3WRF6WEFNKYXLJdrxwTt1+o
+         A/O9PYE019sDigYySQ5ZftgHYT3CN5lZxY10aGgD21H2udDNA+eyyyxDyWRktxtX7+ci
+         pmGQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=content-transfer-encoding:feedback-id:sender:subject:to:from
+         :message-id:list-unsubscribe:reply-to:date:mime-version
+         :dkim-signature;
+        bh=FyN+GN7UkEWo0sbh9XylvDhOLAaEAElBTTE/1QLiw0Y=;
+        b=HN7yAbnWFRykPSD9N3pVicoeCSyVV7t3yd+0CMH5ZJhUs2/TUUZnwVaVRCYn8vwmgV
+         aXzTnFmVOmTEBfJGYsPg+fQ+33w3XJrLiyqhYIsgcY10/HR5ATcjcIbUTO//dtoyM7Am
+         Q336TNqEri6gMTejym2TZtbLPpIuVUY8LzOpJjzQ1zZjF+D1q6PSJUTLc91L2aKsQqZU
+         +1i1ep3hPSOvHIRgwHMl4T6SbPeF5N+xAjjO7WRgVruIiWt5iobxFDafVjz84bCwW0TW
+         jTg1ug7bdUl7szg6j0HSi+rwjCAhWRjtU7RnfdfIPUKEy2Pz14tPvFVy52bb7bRQEhz8
+         ltcg==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@wish.com header.s=mail header.b=cFmPGyRA;
+       spf=pass (google.com: domain of bounces+vpxy5r7irumpv/dnxhgfvqynjtn7irej2@mail.wish.com designates 144.2.145.15 as permitted sender) smtp.mailfrom="bounces+VpXy5r7IRUmpV/dnXHgfVqYNjtN7IrEJ2@mail.wish.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=wish.com
+Return-Path: <bounces+VpXy5r7IRUmpV/dnXHgfVqYNjtN7IrEJ2@mail.wish.com>
+Received: from mail.wish.com (mta-2-015.ml.wish.com. [144.2.145.15])
+        by mx.google.com with ESMTPS id 136si10657949pfc.170.2019.02.28.12.30.51
+        for <samuel.ozimina@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 28 Feb 2019 12:30:52 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounces+vpxy5r7irumpv/dnxhgfvqynjtn7irej2@mail.wish.com designates 144.2.145.15 as permitted sender) client-ip=144.2.145.15;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@wish.com header.s=mail header.b=cFmPGyRA;
+       spf=pass (google.com: domain of bounces+vpxy5r7irumpv/dnxhgfvqynjtn7irej2@mail.wish.com designates 144.2.145.15 as permitted sender) smtp.mailfrom="bounces+VpXy5r7IRUmpV/dnXHgfVqYNjtN7IrEJ2@mail.wish.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=wish.com
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; d=wish.com;
+	 s=mail; h=Content-Transfer-Encoding:Content-Type:Feedback-ID:Subject:To:From :Message-ID:List-Unsubscribe:Date:Mime-Version; bh=FyN+GN7UkEWo0sbh9XylvDhOLAaEAElBTTE/1QLiw0Y=; b=cFmPGyRAG2nBK7jKntRHLa8970 8rzhbh6FqlaKF338MRTMua3CNSNG84+JFoKJU9oiSXmaKTidiTXxCFN9yasFqx+HBj/O1kRDyP4k4 G2KcZE5YCujpj2npH+69pa22KSdnMyDFHdafyMSXoFIko6pPG79h0d1Hm217Ot2BALgU=;
+Mime-Version: 1.0
+Date: Thu, 28 Feb 2019 12:30:51 -0800
+Reply-To: replyto+VpXy5r7IRUmpV/dnXHgfVqYNjtN7IrEJ2@mail.wish.com
+List-Unsubscribe: <mailto:unsubscribe+VpXy5r7IRUmpV/dnXHgfVqYNjtN7IrEJ2@mail.wish.com>
+Message-ID: <155138585076.1016.10031481180805219276@mail.wish.com>
+X-Mail-IP: 144.2.145.15
+From: Wish <offers@wish.com>
+To: Samuel Ozimina <samuel.ozimina@gmail.com>
+Subject: Laptop Leftovers? 💻 80 € Laptops and MacBooks for 1 hour ...
+Sender: bounces+VpXy5r7IRUmpV/dnXHgfVqYNjtN7IrEJ2@mail.wish.com
+Feedback-ID: 5695f2e6bec84549a957f767:5c781f56a60d8ed37b22b109:2:wishmailx
+X-Email-Type: 2
+X-Email-ID: VpXy5r7IRUmpV/dnXHgfVqYNjtN7IrEJ2
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
